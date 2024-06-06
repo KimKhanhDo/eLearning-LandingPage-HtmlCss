@@ -530,13 +530,13 @@ h2 {
 }
 
 /* CTA */
-.cta-group {
+.cta-section {
   margin-top: 130px;
   padding: 76px 0;
   background: #def6f5;
 }
 
-.cta-group .body {
+.cta-section .body {
   display: flex;
   align-items: center;
 }
