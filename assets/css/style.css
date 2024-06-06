@@ -433,6 +433,7 @@ h2 {
 }
 
 .feedback-item .open-quotes {
+  margin-top: 37px;
   width: 36px;
   height: 29px;
 }
@@ -526,4 +527,72 @@ h2 {
   position: absolute;
   right: 35px;
   top: 374px;
+}
+
+/* CTA */
+.cta-group {
+  margin-top: 130px;
+  padding: 76px 0;
+  background: #def6f5;
+}
+
+.cta-group .body {
+  display: flex;
+  align-items: center;
+}
+
+.cta-info {
+  margin-right: 410px;
+}
+
+.cta-info .desc {
+  margin-top: 18px;
+  font-size: 1.8rem;
+}
+
+.cta .btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  padding: 130px 0 50px;
+}
+
+.footer .body {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.column .title {
+  margin-bottom: 25px;
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.column li a {
+  display: flex;
+  align-items: center;
+  /* display: inline-block; */
+  margin-bottom: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.column li a .social-icon {
+  margin-right: 10px; /* Adjust space between icon and text */
+}
+
+.footer .copyright {
+  padding: 80px 0 50px;
+  text-align: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
 }
