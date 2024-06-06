@@ -38,6 +38,10 @@ a {
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
+.btn:hover {
+  opacity: 0.9;
+}
+
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
@@ -88,6 +92,11 @@ a {
   font-size: 1.6rem;
 }
 
+.action .sign-in-btn:hover {
+  color: #2f3a3b;
+  font-weight: 600;
+}
+
 .action .sign-up-btn {
   min-width: 108px;
   line-height: 48px;
@@ -97,6 +106,16 @@ a {
   color: var(--primary-color);
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+.action .sign-up-btn {
+  font-weight: 600;
+}
+
+.action .sign-up-btn:hover {
+  color: #fff;
+  background: var(--primary-color);
+  opacity: 0.9;
 }
 
 /* Hero */
@@ -218,4 +237,49 @@ a {
 
 .avatar-group .avatar:first-child {
   margin-left: 0;
+}
+
+/* Features */
+.features {
+  margin-top: 130px;
+}
+
+.feature-info .label {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.feature-info .title {
+  margin: 18px 0;
+  width: 577px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.34; /* 133.333% */
+}
+
+.feature-info .desc {
+  width: 590px;
+  font-size: 1.8rem;
+}
+
+.feature-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.item .label {
+  margin: 26px 0 16px 0;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.item .desc {
+  width: 224px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69; /* 168.75% */
 }
