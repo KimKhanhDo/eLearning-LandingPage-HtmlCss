@@ -417,3 +417,113 @@ h2 {
   font-size: 1.8rem;
   font-weight: 400;
 }
+
+/* Feedback */
+.feedback {
+  margin-top: 264px;
+}
+
+.feedback-list {
+  display: flex;
+}
+
+.feedback-item {
+  width: 42%;
+  margin-right: 72px;
+}
+
+.feedback-item .open-quotes {
+  width: 36px;
+  height: 29px;
+}
+
+.feedback-item blockquote {
+  width: 419px;
+  margin: 27px 0 33px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  line-height: 1.5; /* 150% */
+}
+
+.feedback-item strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.feedback-item .student-info {
+  position: relative;
+  margin-left: 13px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.feedback-item .student-info::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  margin: 7px 6px 0 -13px;
+  width: 8px;
+  height: 2px;
+  background: #070707;
+}
+
+.feedback-list button {
+  margin-top: 52px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.feedback-avatar {
+  position: relative;
+  width: 58%;
+  height: 481px;
+  margin-left: auto;
+}
+
+.feedback-avatar .student-ava {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.feedback-avatar .student-ava:first-child {
+  position: absolute;
+  left: 144px;
+  width: 92px;
+  height: 92px;
+}
+
+.feedback-avatar .student-ava:nth-child(2) {
+  position: absolute;
+  right: 0;
+  top: 19px;
+  width: 110px;
+  height: 110px;
+}
+
+.feedback-avatar .student-ava:nth-child(3) {
+  position: absolute;
+  left: 273px;
+  top: 107px;
+  width: 235px;
+  height: 235px;
+}
+.feedback-avatar .student-ava:nth-child(4) {
+  position: absolute;
+  left: 0px;
+  top: 258px;
+}
+.feedback-avatar .student-ava:nth-child(5) {
+  position: absolute;
+  left: 212px;
+  top: 403px;
+}
+.feedback-avatar .student-ava:last-child {
+  position: absolute;
+  right: 35px;
+  top: 374px;
+}
